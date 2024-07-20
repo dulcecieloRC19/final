@@ -1,0 +1,72 @@
+#carouselExampleAutoplaying{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}
+header{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    color: black;
+    list-style-type: none;
+
+}
+.nav-item{
+    margin: 15px;
+    text-decoration: none;
+}
+.nav-item a:hover{
+    text-decoration: underline;
+}
+.personajes{
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+}
+.card-img{
+    height: 400px;
+    width: 100px;
+ }
+ .col{
+    justify-content: center;
+ }
+ footer{
+    margin-top: 70px;
+    margin-left: 60px;
+}
+#video{
+    margin-top: 65px;
+    text-align: center;
+}
+iframe{
+    width: 70%;
+    height:500px;
+}
+#iconos a{
+    color: black;
+    margin: 10px;
+}
+#pie{
+    display: flex;
+    flex-direction: row;
+}
+.he{
+    display: flex;
+    flex-direction: column;
+}
+.he a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 20px;
+}
+.he a:hover {
+    color: rgb(150, 150, 150);
+    text-decoration: underline;
+}
